@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  background-color: #e7e7e7;
+  padding-top: 100px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px;
+  background-color: #5733de;
+  height: 100px;
+}
+
+header h1 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+header h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+header img {
+  width: 70px;
+  margin-left: 100px;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  border: 2px solid black;
+  align-items: center;
+}
+
+#formulario {
+  background-color: #6a5ba3;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px;
+}
+
+form input {
+  width: 200px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: 2px solid black;
+  padding: 8px;
+  outline-color: #5733de;
+}
+
+form button,
+footer button {
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  border: 2px solid black;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+form button:hover {
+  background-color: #5733de;
+}
+
+table {
+  width: 100%;
+  font-size: 24px;
+}
+
+table th {
+  border-bottom: 2px solid black;
+  padding: 12px;
+}
+
+table td {
+  border-bottom: 2px solid black;
+  text-align: center;
+  padding: 12px 0px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px 0px;
+  background-color: #6a5ba3;
+}
+
+footer button:hover {
+  background-color: rgb(187, 27, 27);
+}

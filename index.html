@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Schedule</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="imagens/agenda.png" alt="" />
+        <h1>Schedule contatos</h1>
+        <h3 id="total">Total de contatos: 0</h3>
+      </header>
+      <form id="formulario" action="">
+        <input id="nome" type="text" placeholder="Digite o nome" required />
+        <input
+          id="sobrenome"
+          type="text"
+          placeholder="Digite o sobrenome"
+          required
+        />
+        <input id="tel" type="tel" placeholder="Digite o número" required />
+        <button type="submit">Adicionar</button>
+        <button type="reset">Limpar</button>
+      </form>
+      <table cellspacing="0">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>Número</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>---</td>
+            <td>---</td>
+            <td>---</td>
+          </tr>
+        </tbody>
+      </table>
+      <footer>
+        <tr>
+          <td>
+            &copy; Schedule contatos - todos os direitos reservados - 2023
+          </td>
+          <td><button id="reload">Limpar Todos</button></td>
+        </tr>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
